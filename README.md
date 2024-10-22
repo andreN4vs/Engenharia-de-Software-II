@@ -56,39 +56,16 @@
 
 ---
 
-### **Sprint 4: Página de Orçamento**
+### **Sprint 4: Tela de Cadastro de Usuário**
 
-- **US 04.01:** Como parte interessada, quero visualizar a distribuição do orçamento de forma clara e fácil de entender.
-  - **Tarefas:**
-    - Criar a página de orçamento e desenvolver gráficos dinâmicos utilizando bibliotecas JS (Chart.js, D3.js).
+   - Formulário de cadastro com os seguintes campos:
+     - Nome
+     - E-mail
+     - Senha (com validação de força)
+     - Confirmação de senha
+   - Botão "Cadastrar"
+   - Feedback de erros de preenchimento (ex.: e-mail inválido).
 
-- **US 04.02:** Como parte interessada, quero ter acesso a detalhes do orçamento em uma tabela interativa.
-  - **Tarefas:**
-    - Implementar uma tabela interativa que exiba as categorias de gastos e previsões financeiras.
-
-- **US 04.03:** Como parte interessada, quero exportar os dados de orçamento para análise externa.
-  - **Tarefas:**
-    - Adicionar uma funcionalidade para exportar a tabela e gráficos em formatos como CSV ou PDF.
 
 ---
 
-## Resumo das Sprints:
-
-- **Sprint 1:**
-  - **US 01.01:** Estrutura principal do site com navegação.
-  - **US 01.02:** Navegação responsiva para dispositivos móveis.
-
-- **Sprint 2:**
-  - **US 02.01:** Página de estratégias de comunicação.
-  - **US 02.02:** Galeria interativa com exemplos de campanhas.
-  - **US 02.03:** Botões de compartilhamento para redes sociais.
-
-- **Sprint 3:**
-  - **US 03.01:** Cronograma interativo com calendário.
-  - **US 03.02:** Animações e transições no cronograma.
-  - **US 03.03:** Funcionalidade de lembretes por e-mail.
-
-- **Sprint 4:**
-  - **US 04.01:** Gráficos dinâmicos para o orçamento.
-  - **US 04.02:** Tabela interativa com detalhes do orçamento.
-  - **US 04.03:** Exportação de dados de orçamento (CSV/PDF).
