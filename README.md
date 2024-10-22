@@ -1,71 +1,39 @@
-# Engenharia-de-Software-II
+# Backlog de 4 Sprints para Site de Marketing
 
-# Backlog do Produto Priorizado
-
-**Título do Projeto:** Desenvolvimento de um site para suporte ao plano de marketing de um produto existente.
-
-**Objetivo do Projeto:** Criar um site funcional para apresentar o plano de marketing da empresa GHI, focando nas estratégias de comunicação, cronograma de ações e orçamento.
-
----
-
-## Sprints e User Stories
-
-### **Sprint 1: Estruturação do Site e Navegação**
-
-- **US 01.01:** Como visitante, quero navegar facilmente pelo site para acessar diferentes seções.
-  - **Tarefas:**
-    - Criar a estrutura principal do site (header, footer, barra de navegação).
-    - Implementar a navegação entre páginas usando roteamento JavaScript.
-
-- **US 01.02:** Como visitante, quero acessar o site de forma otimizada em dispositivos móveis.
-  - **Tarefas:**
-    - Desenvolver navegação responsiva para dispositivos móveis.
-    - Garantir que a estrutura seja adaptável a diferentes tamanhos de tela.
-
----
-
-### **Sprint 2: Página de Estratégias de Comunicação**
-
-- **US 02.01:** Como usuário, quero visualizar as diferentes estratégias de comunicação para entender o plano de marketing.
-  - **Tarefas:**
-    - Criar a página de estratégias de comunicação com seções para mídias sociais, e-mail marketing, e campanhas offline.
-
-- **US 02.02:** Como usuário, quero ver exemplos de campanhas em uma galeria interativa.
-  - **Tarefas:**
-    - Implementar galeria de imagens e vídeos com transições e animações em JavaScript.
-
-- **US 02.03:** Como usuário, quero poder compartilhar as campanhas de marketing nas minhas redes sociais.
-  - **Tarefas:**
-    - Adicionar botões de compartilhamento para mídias sociais.
+| **Sprint** | **Funcionalidade**          | **Tarefas principais**                                                                                                   |
+|------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 1** | Cadastro de Usuário         | - Criação da tela de cadastro (Nome, E-mail, Senha, Confirmação de Senha).                                                |
+|            |                             | - Validação de dados no frontend (e-mail, força de senha, confirmação de senha).                                          |
+|            |                             | - Implementação da API para cadastro de usuários (hash de senha, armazenamento no banco de dados).                        |
+|            |                             | - Criação da tabela `usuarios` no banco de dados.                                                                        |
+|            |                             | - Testes de unidade e integração.                                                                                        |
+| **Sprint 2** | Login e Sessão do Usuário   | - Criação da tela de login (E-mail, Senha).                                                                               |
+|            |                             | - Implementação da API de autenticação de usuários (verificação de e-mail e senha).                                       |
+|            |                             | - Gerenciamento de sessão/cookies para manter o usuário autenticado.                                                     |
+|            |                             | - Implementação do logout.                                                                                               |
+|            |                             | - Testes de unidade e integração.                                                                                        |
+| **Sprint 3** | Sistema de Pedidos          | - Criação da página de produtos (lista de produtos, descrição, preço, "Adicionar ao carrinho").                          |
+|            |                             | - Implementação do carrinho de compras (adicionar/remover itens, cálculo de total).                                       |
+|            |                             | - Criação da tela de finalização de pedido (endereço de entrega, pagamento).                                              |
+|            |                             | - Implementação da API de pedidos (armazenamento de pedidos no banco de dados).                                           |
+|            |                             | - Criação das tabelas `pedidos` e `itens_pedidos` no banco de dados.                                                     |
+|            |                             | - Testes de unidade e integração.                                                                                        |
+| **Sprint 4** | Suporte de Perguntas e FAQ  | - Criação da página de FAQ (lista de perguntas frequentes, campo de busca).                                               |
+|            |                             | - Criação do formulário de envio de perguntas (Nome, E-mail, Pergunta).                                                  |
+|            |                             | - Implementação de sistema de respostas automatizadas com base em palavras-chave.                                         |
+|            |                             | - Implementação da API para envio de perguntas e recuperação de respostas.                                               |
+|            |                             | - Criação das tabelas `perguntas` e `respostas_frequentes` no banco de dados.                                            |
+|            |                             | - Testes de unidade e integração.                                                                                        |
 
 ---
 
-### **Sprint 3: Página de Cronograma de Lançamento**
+## Resumo
 
-- **US 03.01:** Como usuário, quero visualizar um cronograma interativo para acompanhar as ações de lançamento.
-  - **Tarefas:**
-    - Desenvolver uma página de cronograma com calendário interativo usando JavaScript.
-
-- **US 03.02:** Como usuário, quero que o cronograma tenha animações e transições suaves para melhorar a experiência de navegação.
-  - **Tarefas:**
-    - Implementar animações e transições entre datas e eventos no calendário.
-
-- **US 03.03:** Como visitante, quero receber notificações por e-mail sobre eventos importantes.
-  - **Tarefas:**
-    - Implementar a funcionalidade de lembretes por e-mail para os principais eventos do cronograma.
-
----
-
-### **Sprint 4: Tela de Cadastro de Usuário**
-
-   - Formulário de cadastro com os seguintes campos:
-     - Nome
-     - E-mail
-     - Senha (com validação de força)
-     - Confirmação de senha
-   - Botão "Cadastrar"
-   - Feedback de erros de preenchimento (ex.: e-mail inválido).
+Este backlog detalha as 4 sprints necessárias para desenvolver as principais funcionalidades de um site de marketing:
+1. **Cadastro de Usuário**: Tela de cadastro, validação e armazenamento seguro.
+2. **Login e Sessão**: Autenticação de usuário e gerenciamento de sessão.
+3. **Sistema de Pedidos**: Carrinho de compras e fluxo de finalização de pedidos.
+4. **Suporte e FAQ**: Página de suporte com perguntas frequentes e envio de dúvidas.
 
 
----
 
