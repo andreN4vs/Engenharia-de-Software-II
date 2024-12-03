@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .features {
+    padding: 20px;
+  }
+  
+  .features ul {
+    list-style-type: none;
+  }
+  
+  #faq {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  #response-message {
+    margin-top: 20px;
+  }
+
+  .models {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .model-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .model {
+    border: 1px solid #ccc;
+    padding: 15px;
+    max-width: 300px;
+  }
+  
+  .bike-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+
+  .hero {
+    position: relative;
+    background: url('header-image.jpg') no-repeat center center/cover; /* Imagem de fundo */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para destacar o texto */
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+  }
