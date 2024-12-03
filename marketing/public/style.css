@@ -13,6 +13,14 @@ body {
   
   .features {
     padding: 20px;
+    margin-left: 20%;
+    margin-right: 50%;
+  }
+
+  .features2 {
+    padding: 20px;
+    margin-left: 50%;
+    margin-right: 20%;
   }
   
   .features ul {
@@ -92,7 +100,7 @@ body {
 
   .hero {
     position: relative;
-    background: url('header-image.jpg') no-repeat center center/cover; /* Imagem de fundo */
+    background: url('./img/image.png') no-repeat center center/cover; /* Imagem de fundo */
     height: 300px;
     display: flex;
     flex-direction: column;
